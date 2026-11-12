@@ -108,7 +108,7 @@ def main():
 
     total = round(total, 1)
     max_total = sum(reg[name].get("weight", 0) for name in order)
-    out = {"total": total, "max": max_total, "group": args.group,
+    out = {"total": total, "max": max_tcotal, "group": args.group,
            "review_flags": all_flags, "tasks": rows}
     outdir = ROOT / args.out
     outdir.mkdir(parents=True, exist_ok=True)

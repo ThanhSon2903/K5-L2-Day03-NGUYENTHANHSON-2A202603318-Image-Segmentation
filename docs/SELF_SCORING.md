@@ -49,7 +49,7 @@ Trên Windows, thay `python3` bằng `py -3` trong các lệnh. Cần Python 3.1
 Đặt ZIP CVAT của bạn trong `submissions/`, giữ nguyên nội dung bên trong. Chạy từng dòng từ thư mục gốc:
 
 ```bash
-python3 scoring/score.py easy_semantic submissions/easy_semantic.zip --group tiers
+python scoring/score.py easy_semantic submissions/easy_semantic.zip --group tiers
 python3 scoring/score.py medium_instance submissions/medium_instance.zip --group tiers
 python3 scoring/score.py hard_panoptic submissions/hard_panoptic.zip --group tiers
 ```
